@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25746" started-at="2019-02-07T21:06:03Z" finished-at="2019-02-07T21:06:29Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="19772" started-at="2019-02-07T21:06:03Z" finished-at="2019-02-07T21:06:23Z">
+      <class name="pages.BookReturnFlight">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pages.BookReturnFlight@134593bf]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-07T21:06:03Z" finished-at="2019-02-07T21:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pages.BookReturnFlight@134593bf]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-02-07T21:06:03Z" finished-at="2019-02-07T21:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="readExcel()[pri:0, instance:pages.BookReturnFlight@134593bf]" name="readExcel" is-config="true" duration-ms="711" started-at="2019-02-07T21:06:03Z" finished-at="2019-02-07T21:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcel -->
+        <test-method status="PASS" signature="bookingflight()[pri:0, instance:pages.BookReturnFlight@134593bf]" name="bookingflight" duration-ms="19029" started-at="2019-02-07T21:06:04Z" finished-at="2019-02-07T21:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingflight -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pages.BookReturnFlight@134593bf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-07T21:06:23Z" finished-at="2019-02-07T21:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pages.BookReturnFlight@134593bf]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-02-07T21:06:23Z" finished-at="2019-02-07T21:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:pages.BookReturnFlight@134593bf]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-02-07T21:06:23Z" finished-at="2019-02-07T21:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- pages.BookReturnFlight -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="5938" started-at="2019-02-07T21:06:23Z" finished-at="2019-02-07T21:06:29Z">
+      <class name="pages.BookReturnFlight">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:pages.BookReturnFlight@134593bf]" name="beforeSuite" is-config="true" duration-ms="4682" started-at="2019-02-07T21:05:53Z" finished-at="2019-02-07T21:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:pages.LoginVaidation@3439f68d]" name="beforeSuite" is-config="true" duration-ms="5810" started-at="2019-02-07T21:05:57Z" finished-at="2019-02-07T21:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="FAIL" signature="afterSuite()[pri:0, instance:pages.BookReturnFlight@134593bf]" name="afterSuite" is-config="true" duration-ms="84" started-at="2019-02-07T21:06:29Z" finished-at="2019-02-07T21:06:29Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/itextpdf/text/log/LoggerFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/itextpdf/text/log/LoggerFactory
+at com.itextpdf.tool.xml.net.FileRetrieveImpl.<clinit>(FileRetrieveImpl.java:67)
+at com.itextpdf.tool.xml.css.StyleAttrCSSResolver.<init>(StyleAttrCSSResolver.java:113)
+at com.itextpdf.tool.xml.css.StyleAttrCSSResolver.<init>(StyleAttrCSSResolver.java:102)
+at com.itextpdf.tool.xml.css.StyleAttrCSSResolver.<init>(StyleAttrCSSResolver.java:90)
+at com.itextpdf.tool.xml.XMLWorkerHelper.parseXHtml(XMLWorkerHelper.java:174)
+at pages.BookReturnFlight.afterSuite(BookReturnFlight.java:285)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.itextpdf.text.log.LoggerFactory
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:pages.LoginVaidation@3439f68d]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-02-07T21:06:29Z" finished-at="2019-02-07T21:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- pages.BookReturnFlight -->
+      <class name="pages.LoginVaidation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pages.LoginVaidation@3439f68d]" name="beforeTest" is-config="true" duration-ms="4" started-at="2019-02-07T21:06:23Z" finished-at="2019-02-07T21:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pages.LoginVaidation@3439f68d]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-02-07T21:06:23Z" finished-at="2019-02-07T21:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login()[pri:0, instance:pages.LoginVaidation@3439f68d]" name="login" duration-ms="5932" started-at="2019-02-07T21:06:23Z" finished-at="2019-02-07T21:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pages.LoginVaidation@3439f68d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-07T21:06:23Z" finished-at="2019-02-07T21:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pages.LoginVaidation@3439f68d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-07T21:06:29Z" finished-at="2019-02-07T21:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pages.LoginVaidation@3439f68d]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-02-07T21:06:29Z" finished-at="2019-02-07T21:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:pages.LoginVaidation@3439f68d]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-02-07T21:06:29Z" finished-at="2019-02-07T21:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- pages.LoginVaidation -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
